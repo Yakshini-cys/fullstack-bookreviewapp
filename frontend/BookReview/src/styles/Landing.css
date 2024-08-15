@@ -1,0 +1,63 @@
+/* src/components/HomePage.css */
+.homepage {
+  display: flex;
+  height: 100vh;
+}
+
+.left-panel {
+  flex: 1;
+  background-color:black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.left-panel h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.left-panel p {
+  font-size: 24px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.sign-up, .sign-in {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.sign-up {
+  background-color: white;
+  color:palevioletred;
+}
+
+.sign-in {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.right-panel {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  background-image: url("../Assets/HeroImg.jpg");
+  background-repeat: repeat-y;
+  background-size: contain;
+}
+
+

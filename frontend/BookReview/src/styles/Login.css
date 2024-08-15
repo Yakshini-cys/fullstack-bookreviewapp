@@ -1,0 +1,110 @@
+/* src/components/Register.css */
+.loginpage {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .Lleft-panel {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../Assets/HeroImg.jpg");
+    background-repeat: repeat-y;
+    background-size: contain;
+  }
+  
+  .Lright-panel {
+    flex: 1;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .Llogo {
+    width: 400px;
+    height: 80px;
+    padding-bottom: 40px;
+  }
+  
+  /* Styles for the signup form */
+  .signin-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 18px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border-radius: 5px;
+  }
+  .checkbox-g label {
+    
+    color: white;
+    cursor: pointer;
+  }
+  
+  .checkbox-g input {
+    margin-right: 3px;
+    cursor: pointer;
+  }
+  .submit-button {
+    padding: 10px 20px;
+    background-color: #9014c9;
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: whitesmoke;
+    color: #9014c9;
+  }
+  .signup-option {
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+  }
+  
+  .signup-option span {
+    color: #9014c9;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .signup-option span:hover {
+    color:#b174cd;
+  }
+  
